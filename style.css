@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*Min CSS börjar här*/
+html {
+	height:100%;
+}
+
+body{
+	position: relative;
+	width: 1000px;
+	height: 100%;
+	margin: 0px auto;
+	background-image: url(pics/blomma.png);
+	background-repeat: round;
+	border: 1px solid #543a32;
+}
+
+#container {
+	background-color: #f8dfd7;
+	margin: 0 auto;
+	font-family: helvetica, arial, sans-serif;;
+	color: #543a32;
+	position: relative;
+	height: auto;	
+}	
+
+#container h1{
+	font-size: 80px;
+	font-weight: 500;
+	font-family: 'Kristi', cursive;
+}
+
+#container h3{
+	font-size: 21px;
+	font-weight: 500;
+}
+
+#container h4{
+	font-size: 16px;
+	font-weight: 500;
+}
+
+#container {
+	box-shadow: rgba(0, 0, 0, 0.7) 0 0 18px 3px;
+}
+
+ #content {
+ 	padding-bottom: 70px;
+}
+#rubrik {
+	margin-left:40px;
+	text-shadow:2px 2px 2px #be3922;
+}
+
+#nav {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#nav ul li {
+	float: left;
+	list-style-type: none;
+}
+
+#nav ul li a { 
+	width: 190px;
+	height: auto;
+	display: block; 
+	background-color: #f8dfd7;
+	color: #543a32;
+	text-decoration: none;
+	text-align: center;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: 700;
+	border-bottom: 1px solid #543a32;
+	border-top: 1px solid #543a32;
+}
+
+#nav ul li a:hover {
+	background-color: #dc9f8d;
+}
+
+#nav ul li a.active {
+	background-color:#edbdaf;
+}
+
+.menu {
+	font-style: normal;
+	font-size: x-large;
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+
+p:first-letter {
+	font-size: 200%;
+	font-family: 'UnifrakturCook', cursive;
+}
+
+.p {
+	margin:50px;
+}
+
+#footer {
+    font-size: 10px;
+	margin-left: 25px; 
+	margin-top: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px; 
+    position: absolute;
+    width: 950px;
+    border-top: 1px solid  #543a32
+}
+
+#footer p:first-letter{
+	font-size: 10px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+fieldset {
+	width: 500px;
+}
+
+#fotos {
+	margin-left: 45px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+
+ 
+
+
+
+

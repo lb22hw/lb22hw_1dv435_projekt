@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href='http://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="tooltipster.css" />
+		<link href='http://fonts.googleapis.com/css?family=Yeseva+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Kristi' rel='stylesheet' type='text/css'>
 		<meta charset="utf-8" />
 		<title>Hantverket</title>
@@ -21,21 +22,34 @@
 					<li class="menu active"><a href="start.html">Startsida</a></li>
 					<li class="menu"><a href="om.html">Om oss</a></li>
 					<li class="menu"><a href="kurser.html">Våra kurser</a></li>
-					<li class="menu"><a href="galleri.html">Galleri</a></li>
 					<li class="menu"><a href="kontakt.html">Kontakt</a></li>
 					</ul>
 				</div>
-				<div id="fotos">
-					<img src="pics/kapsyl.png" alt="Foto på hantverk"/>
-					<img src="pics/kapsyl.png" alt="Foto på hantverk"/>
-					<!--<img src="" alt="Foto på hantverk"/>
-					<img src="" alt="Foto på hantverk"/>-->
+				<div class="foto">
+					<img src="pics/kapsyl.png" alt="Foto på hantverk" class="tooltip" title="Exempel på rolig slöjd"/>
+					<img src="pics/virkat.png" alt="Foto på hantverk" class="tooltip" title="Del av virkad påse"/>
+					<img src="pics/kofta.png" alt="Foto på hantverk" class="tooltip" title="Kul kofta"/>
+					<img src="pics/oro.png" alt="Foto på hantverk" class="tooltip" title="Oro, en slags krona"/>
+				</div>
+				<div id="start">
+				<h2>Hantverket kursgård</h2> 
+				<h5>anordnar kurser och föreläsningar inom framförallt textilt hantverk.</h5>
+				<h5>Vi vill ge våra deltagare en upplevelse som sträcker sig lite längre än konventionell kursverksamhet. Vårt slöjdhus med en härlig slöjdsal, utmärkta övernattningsmöjligheter och kursledare som alltid är främst inom sitt gebit bidrar till den unika upplevelse vi vill ge våra deltagare.</h5>
+			</div>
+			<div class="foto2">
+					<img src="pics/sal.png" alt="Foto på slöjdsal" class="tooltip" title="Vår slöjdsal"/>
+					<img src="pics/sovrum.png" alt="Foto på sovrum" class="tooltip" title="Ett av våra sovrum"/>
+					<img src="pics/matsal.png" alt="Foto på matsal" class="tooltip" title="Vår matsal"/>
+					<img src="pics/sovrum2.png" alt="Foto på sovrum" class="tooltip" title="Ett av våra sovrum"/>
 				</div>
 			<div id="footer">
 			    <p>Ansvarig för denna sida är Charlotta Bentzen</p>
 			    <p>Sidan är validerad </p>
 			</div>
 		</div>
-		</div>	
+		</div>
+		<script type="text/javascript" src="js/myscript.js"></script> 
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.0.min.js"></script>
+    	<script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
 	</body>
 </html>		

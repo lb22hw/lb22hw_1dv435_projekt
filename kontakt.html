@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href='http://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="tooltipster.css" />
+		<link href='http://fonts.googleapis.com/css?family=Yeseva+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Kristi' rel='stylesheet' type='text/css'>
 		<meta charset="utf-8" />
 		<title>Hantverket</title>
@@ -21,33 +22,43 @@
 						<li class="menu"><a href="start.html">Startsida</a></li>
 						<li class="menu"><a href="om.html">Om oss</a></li>
 						<li class="menu"><a href="kurser.html">Våra kurser</a></li>
-						<li class="menu"><a href="galleri.html">Galleri</a></li>
 						<li class="menu active"><a href="kontakt.html">Kontakt</a></li>
 						</ul>
 				</div>
-				<div class="p">
-					<h4>Vill du ha vårt nyhetsbrev, fyll i kontaktuppgifter nedan</h4>
+				<div id="sidecontent">
+					<h5>Hantverkshuset ligger i byn Normlösa, helt nära skolan i byn, vår postaderess är faktiskt just det. Våra kontaktuppgifter ser du här nedan:</h5>
+					<div id="kontaktuppg">
+						<h4>Hantverkshuset kursgård<br>
+							Normlösa skolan<br>
+							59693 Skänninge<br>
+							tel. 0142-987654, 070-9876543<br>
+							e-mail: hantverkshuset@telia.com<br>
+							www.hantverkshuset.com<br>
+						</h4>
+					</div>
 				</div>
-				<div id="form3">
-						<form name="form" method="post" action="POST">
-						<fieldset>
-							<legend>SKICKA NYHETSBREV TILL MIG</legend>
-								<label for="namn">Förnamn:</label><br>
-								<input type="text" name="namn" id="namn"/><br>
-								<label for="enamn">Efternamn:</label><br>
-								<input type="text" name="enamn" id="enamn"/><br>
-								<label for="epost">E-postadress:</label><br>
+				<div id="karta">
+				<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.se/maps?f=q&amp;source=s_q&amp;hl=sv&amp;geocode=&amp;q=Norml%C3%B6sa+Skola,+Skepps%C3%A5sv%C3%A4gen,+Sk%C3%A4nninge&amp;aq=1&amp;oq=norml%C3%B6sa+skola&amp;sll=58.395271,15.086611&amp;sspn=0.02195,0.075188&amp;t=h&amp;ie=UTF8&amp;hq=Norml%C3%B6sa+Skola,&amp;hnear=Skepps%C3%A5sv%C3%A4gen,+596+93+Sk%C3%A4nninge&amp;z=14&amp;iwloc=A&amp;cid=5572425549354229762&amp;ll=58.416449,15.227362&amp;output=embed"></iframe><br /><small><a href="https://maps.google.se/maps?f=q&amp;source=embed&amp;hl=sv&amp;geocode=&amp;q=Norml%C3%B6sa+Skola,+Skepps%C3%A5sv%C3%A4gen,+Sk%C3%A4nninge&amp;aq=1&amp;oq=norml%C3%B6sa+skola&amp;sll=58.395271,15.086611&amp;sspn=0.02195,0.075188&amp;t=h&amp;ie=UTF8&amp;hq=Norml%C3%B6sa+Skola,&amp;hnear=Skepps%C3%A5sv%C3%A4gen,+596+93+Sk%C3%A4nninge&amp;z=14&amp;iwloc=A&amp;cid=5572425549354229762&amp;ll=58.416449,15.227362" style="color:#0000FF;text-align:left">Visa större karta</a></small>
+				</div>
+						<form name="form" method="post" action="mailto:lb22hw@student.lnu.se" enctype="text/plain">
+							<fieldset>
+								<legend>Vill du ha vårt nyhetsbrev, fyll i kontaktuppgifter nedan</legend>
+								<label for="name">Ditt namn:</label><br>
+								<input type="text" name="name" id="name"/><br>
+								<label for="epost">Din e-postadress:</label><br>
 								<input type="text" name="epost" id="epost"/><br>
-								<label for="skicka"></label>
-								<input type="submit" name="skicka" id="skicka" value="Skicka meddelandet"/>
-						</fieldset>
-					</form>
-				</div>	    	
+								<input type="submit" id="button" class="knapp" value="Skicka meddelandet"/>
+								<input type="reset" class="knapp1" value="Återställ formuläret"/>
+							</fieldset>
+					</form>	    	
 				<div id="footer">
 				    <p>Ansvarig för denna sida är Charlotta Bentzen</p>
 				    <p>Sidan är validerad </p>
-				</div>
+				</div>	
 			</div>
-		</div>	
+		</div>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.0.min.js"></script>
+    	<script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
+		<script type="text/javascript" src="js/myscript.js"></script>
 	</body>
 </html>		

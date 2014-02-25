@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href='http://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="tooltipster.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Yeseva+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Kristi' rel='stylesheet' type='text/css'>
-		<meta charset="utf-8" />
+		<meta charset="utf-8"/>
 		<title>Hantverket</title>
 		<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
 	</head>
-	<body>
 		<div id="container">
 			<div id="header">
 				<!--<a href="start.html"><img src="" alt=""/></a>-->
@@ -21,15 +21,20 @@
 					<li class="menu"><a href="start.html">Startsida</a></li>
 					<li class="menu active"><a href="om.html">Om oss</a></li>
 					<li class="menu"><a href="kurser.html">Våra kurser</a></li>
-					<li class="menu"><a href="galleri.html">Galleri</a></li>
 					<li class="menu"><a href="kontakt.html">Kontakt</a></li>
 					</ul>
 				</div>
+				<div class="foto">
+					<img src="pics/hus.png" alt="Foto på hus" class="tooltip" title="Hantverkshuset"/>
+					<img src="pics/spindel.png" alt="Foto på spindelnät" class="tooltip" title="Vacker natur runt Hantverkshuset"/>
+					<img src="pics/hus2.png" alt="Foto på hantverk" class="tooltip" title="Vackra omgivningar"/>
+					<img src="pics/svamp.png" alt="Foto på hantverk" class="tooltip" title="Färgsvamp"/>
+				</div>
 				<div class="p">
-					<p>Vi köpte Hantverkshuset i början av 2000-talet. Det har tidigare varit missionshus och när vi såg det förstod vi direkt att där skulle vi kunna få
-						det precis som vi ville ha det - en härlig bostad och en stor sal där vi kunde ha hantverkskurser. till att börja med bodde vi på övervåningen men 
-						hand har vi inrättat stora huset så där finns allt som behövs för att bedriva kursverksamhet - slöjdsal, rum för övernattning, kök och matsal.</p>
-					<p>	Vi bor numer i ett mindre hus vi byggt vid sidan av</p>
+					<h5>Vi köpte Hantverkshuset i början av 2000-talet. Det har tidigare varit missionshus och när vi såg det förstod vi direkt att där skulle vi kunna få
+						det precis som vi ville ha det - en härlig bostad och en stor sal där vi kunde ha hantverkskurser. Till att börja med bodde vi på övervåningen men 
+						hand har vi inrättat stora huset så där finns allt som behövs för att bedriva kursverksamhet - slöjdsal, rum för övernattning, kök och matsal.</h5>
+					<h5>	Vi bor numer i ett mindre hus vi byggt vid sidan av</h5>
 				</div>
 			
 			<div id="footer">
@@ -37,6 +42,9 @@
 			    <p>Sidan är validerad </p>
 			</div>
 		</div>
-	</div>	
+	</div> 
+	<script type="text/javascript" src="js/myscript.js"></script> 
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>	
 	</body>
 </html>		

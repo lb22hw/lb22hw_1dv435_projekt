@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href='http://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="tooltipster.css" />
+		<link href='http://fonts.googleapis.com/css?family=Yeseva+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Kristi' rel='stylesheet' type='text/css'>
 		<meta charset="utf-8" />
 		<title>Hantverket</title>
@@ -21,15 +22,20 @@
 						<li class="menu"><a href="start.html">Startsida</a></li>
 						<li class="menu"><a href="om.html">Om oss</a></li>
 						<li class="menu active"><a href="kurser.html">Våra kurser</a></li>
-						<li class="menu"><a href="galleri.html">Galleri</a></li>
 						<li class="menu"><a href="kontakt.html">Kontakt</a></li>
 						</ul>
 					</div>
+					<div class="foto">
+					<img src="pics/sal.png" alt="Foto på slöjdsal" class="tooltip" title="Vår slöjdsal"/>
+					<img src="pics/brodera2.png" alt="Foto på broderande kvinna" class="tooltip" title="En av våra kursdeltagare"/>
+					<img src="pics/farg.png" alt="Foto på kursdeltagare" class="tooltip" title="Från svampfärgningskurs"/>
+					<img src="pics/svamp2.png" alt="Foto på hantverk" class="tooltip" title="Färgsvamp"/>
+					</div>
 					<div class="p">
-						<p>Vi ordnar kurser och föreläsningar i framför allt textilt hantverk och, när tillfälle gives, även i småslöjd som får hänföras till trä- och metallslöjd. Vi anlitar
-						alltid de främsta hantverkarna inom området som föredragshållare eller kursledare.</p>
-						<p>Unna dig en kurs i vår härliga miljö, upplev en trevlig helg med likasinnade!</p>
-						<p>Först ut i år är Britt-Marie Christoffersson</p>  
+						<h5>Vi ordnar kurser och föreläsningar i framför allt textilt hantverk och, när tillfälle gives, även i småslöjd som får hänföras till trä- och metallslöjd. Vi anlitar
+						alltid de främsta hantverkarna inom området som föredragshållare eller kursledare.</h5>
+						<h5>Unna dig en kurs i vår härliga miljö, upplev en trevlig helg med likasinnade!</h5>
+						<h5>Först ut i år är Britt-Marie Christoffersson</h5>  
 					</div>
 					<div id="kurser">
 						<dl>
@@ -43,17 +49,14 @@
 							20-21 maj 2014
 						</dd>
 						<dt>Svampfärgning</dt>
-						<dd>Brita Ruist tar oss på en spännande resa i svampfärgning. Vi börjar med att plocka svampen, kokar färgbad och färgar därefter vackra ullgarner.<br> 
+						<dd>Brita Ruist tar oss på en spännande resa i svampfärgning. Vi börjar med att plocka svampen, kokar färgbad och färgar därefter vackra ullgarner.<br>
 							2-5 september 2014
 						</dd>
 						</dl>
 					</div>
-					<div id="p">
 						<h4>Vill du anmäla dig till en kurs, fyll i anmälningsformuläret nedan så kontaktar vi dig</h4>	
-					</div>
-			       	<form id="form" name="form" method="post" action="POST">
+			       	<form name="form" method="post" action="mailto:lb22hw@student.lnu.se" enctype="text/plain">
 						<fieldset>
-							<legend>KURSANMÄLAN</legend>
 								<label for="kursanm">Kurs:</label><br>
 								<input type="text" name="kursanm" id="kursanm"/><br>
 								<label for="namn">Förnamn:</label><br>
@@ -66,8 +69,8 @@
 								<input type="text" name="padress" id="padress"/><br>
 								<label for="epost">E-postadress:</label><br>
 								<input type="text" name="epost" id="epost"/><br>
-								<label for="skicka"></label>
-								<input type="submit" name="skicka" id="skicka" value="Skicka meddelandet"/>
+								<input type="submit" class="knapp" value="Skicka meddelandet"/>
+								<input type="reset" class="knapp1" value="Återställ formuläret"/>
 						</fieldset>
 					</form>
 				<div id="footer">
@@ -75,6 +78,9 @@
 					<p>Sidan är validerad </p>
 				</div>
 			</div>
-		</div>	
+		</div>
+		<script type="text/javascript" src="js/myscript.js"></script> 
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.0.min.js"></script>
+    	<script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>	
 	</body>
 </html>		

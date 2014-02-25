@@ -54,21 +54,36 @@ body{
 	font-family: 'Kristi', cursive;
 }
 
+#container h2 {
+	font-size: 65px;
+	font-weight: 500;	
+	font-family: 'Kristi', cursive;
+	margin-bottom: 30px
+}
+
 #container h3{
 	font-size: 21px;
-	font-weight: 500;
+	font-weight: bold;
 }
 
 #container h4{
-	font-size: 16px;
-	font-weight: 500;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#container h5 {
+	font-size: 20px;
+	margin-bottom: 20px;
 }
 
 #container {
 	box-shadow: rgba(0, 0, 0, 0.7) 0 0 18px 3px;
 }
 
- #content {
+#content {
  	padding-bottom: 70px;
 }
 #rubrik {
@@ -77,8 +92,8 @@ body{
 }
 
 #nav {
-	margin-left: 25px;
-	margin-right: 25px;
+	margin-left: 45px;
+	margin-right: 20px;
 }
 
 #nav ul li {
@@ -87,7 +102,7 @@ body{
 }
 
 #nav ul li a { 
-	width: 190px;
+	width: 228px;
 	height: auto;
 	display: block; 
 	background-color: #f8dfd7;
@@ -104,34 +119,45 @@ body{
 	background-color: #dc9f8d;
 }
 
-#nav ul li a.active {
+#nav ul li a .active {
 	background-color:#edbdaf;
 }
 
-.menu {
+.menu { 
 	font-style: normal;
 	font-size: x-large;
 	margin-bottom: 40px;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 p:first-letter {
-	font-size: 200%;
-	font-family: 'UnifrakturCook', cursive;
+	font-size: 170%;
+	font-weight: bold;
 }
 
 .p {
 	margin:50px;
 }
 
+legend {
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: 700;
+
+}
+
+input {
+	width: 250px;
+}
+
 #footer {
     font-size: 10px;
-	margin-left: 25px; 
+	margin-left: 20px; 
 	margin-top: 10px;
 	padding-top: 15px;
 	padding-bottom: 15px; 
     position: absolute;
-    width: 950px;
+    width: 960px;
     border-top: 1px solid  #543a32
 }
 
@@ -140,15 +166,92 @@ p:first-letter {
 	font-family: helvetica, arial, sans-serif;
 }
 
-fieldset {
+form {
 	width: 500px;
+	margin-left: 50px;
+	margin-top: 10px;
 }
 
-#fotos {
+.foto {
 	margin-left: 45px;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
 }
+
+.foto2 {
+	margin-left:  45px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#kurser {
+	margin-left: 50px;
+}
+
+#kurser dt {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}	
+
+#kurser dd {
+	margin-right: 50px;
+}
+
+.knapp {
+	border: 1px solid #543a32; 
+	font-size: 18px;
+	background-color:#dc9f8d; 
+	font-weight: bold;
+	font-family: helvetica, arial, sans-serif; 
+	margin-top: 20px;
+	background-image: url(pics/brev.png); 
+	background-repeat: no-repeat;
+	background-position: 4px 5px;
+	text-indent: 30px; 
+
+}
+
+.knapp1 {
+	border: 1px solid #543a32; 
+	font-size: 18px;
+	background-color:#dc9f8d; 
+	font-weight: bold;
+	font-family: helvetica, arial, sans-serif; 
+	margin-top: 20px;
+	background-repeat: no-repeat;
+	background-position: 4px 5px; 
+
+}
+#start {
+	margin-left: 45px;
+	margin-right: 45px;
+}
+
+#karta {
+	width: 450px;
+	height: 465px;
+	margin-left: 450px;
+	margin-bottom: 50px; 
+}
+
+#sidecontent {
+	width:300px;
+	float:left;
+	margin-left:50px;
+}
+
+#kontaktuppg {
+	margin-left: -50px;
+}
+
+
+
+
+
+
+
 
 
  
